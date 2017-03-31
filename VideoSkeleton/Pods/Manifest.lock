@@ -1,0 +1,17 @@
+PODS:
+  - iCarousel (1.8.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - iCarousel
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 5669cfd10c8e3d3bc53ba597fb373481ba10d0ea
+
+COCOAPODS: 1.2.0

@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		32D764831E88246D00BBD6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764821E88246D00BBD6CC /* AppDelegate.swift */; };
-		32D764851E88246D00BBD6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764841E88246D00BBD6CC /* ViewController.swift */; };
 		32D764881E88246D00BBD6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D764861E88246D00BBD6CC /* Main.storyboard */; };
 		32D7648A1E88246D00BBD6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D764891E88246D00BBD6CC /* Assets.xcassets */; };
 		32D7648D1E88246D00BBD6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D7648B1E88246D00BBD6CC /* LaunchScreen.storyboard */; };
 		32D764981E88246D00BBD6CC /* VideoSkeletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764971E88246D00BBD6CC /* VideoSkeletonTests.swift */; };
 		32D764A31E88246E00BBD6CC /* VideoSkeletonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764A21E88246E00BBD6CC /* VideoSkeletonUITests.swift */; };
+		32D764B51E88268400BBD6CC /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764B41E88268400BBD6CC /* MoviesViewController.swift */; };
+		32D764B71E88269100BBD6CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764B61E88269100BBD6CC /* HomeViewController.swift */; };
+		32D764B91E88269B00BBD6CC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764B81E88269B00BBD6CC /* SettingsViewController.swift */; };
+		32D764BB1E8826A800BBD6CC /* LanguageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764BA1E8826A800BBD6CC /* LanguageSelectionViewController.swift */; };
+		32D764C31E88335800BBD6CC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764C21E88335800BBD6CC /* Movie.swift */; };
+		32D764C51E88337300BBD6CC /* MovieCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764C41E88337300BBD6CC /* MovieCollection.swift */; };
+		32D764C71E888C4A00BBD6CC /* MovieCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764C61E888C4A00BBD6CC /* MovieCarouselCell.swift */; };
+		32D764CB1E8B660100BBD6CC /* MovieCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D764CA1E8B660100BBD6CC /* MovieCarouselCell.xib */; };
+		C9ABD816C3B12880CC39C59E /* Pods_VideoSkeleton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA55444E87A0AB2941CA270 /* Pods_VideoSkeleton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		256FD0E3239BDD0582C3C008 /* Pods-VideoSkeleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSkeleton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSkeleton/Pods-VideoSkeleton.debug.xcconfig"; sourceTree = "<group>"; };
 		32D7647F1E88246D00BBD6CC /* VideoSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D764821E88246D00BBD6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32D764841E88246D00BBD6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32D764871E88246D00BBD6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D764891E88246D00BBD6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D7648C1E88246D00BBD6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,17 @@
 		32D7649E1E88246D00BBD6CC /* VideoSkeletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSkeletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D764A21E88246E00BBD6CC /* VideoSkeletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSkeletonUITests.swift; sourceTree = "<group>"; };
 		32D764A41E88246E00BBD6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D764B41E88268400BBD6CC /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		32D764B61E88269100BBD6CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		32D764B81E88269B00BBD6CC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		32D764BA1E8826A800BBD6CC /* LanguageSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewController.swift; sourceTree = "<group>"; };
+		32D764C11E8831C800BBD6CC /* VideoSkeleton-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VideoSkeleton-BridgingHeader.h"; sourceTree = SOURCE_ROOT; };
+		32D764C21E88335800BBD6CC /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		32D764C41E88337300BBD6CC /* MovieCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollection.swift; sourceTree = "<group>"; };
+		32D764C61E888C4A00BBD6CC /* MovieCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCarouselCell.swift; sourceTree = "<group>"; };
+		32D764CA1E8B660100BBD6CC /* MovieCarouselCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCarouselCell.xib; sourceTree = "<group>"; };
+		8A62EF4F4BB244C057889BBE /* Pods-VideoSkeleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSkeleton.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSkeleton/Pods-VideoSkeleton.release.xcconfig"; sourceTree = "<group>"; };
+		EDA55444E87A0AB2941CA270 /* Pods_VideoSkeleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoSkeleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ABD816C3B12880CC39C59E /* Pods_VideoSkeleton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,8 @@
 				32D764961E88246D00BBD6CC /* VideoSkeletonTests */,
 				32D764A11E88246D00BBD6CC /* VideoSkeletonUITests */,
 				32D764801E88246D00BBD6CC /* Products */,
+				BE994E89AAA30C80ED3DB121 /* Pods */,
+				5B513B85C9B7F73D171A4320 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +119,11 @@
 		32D764811E88246D00BBD6CC /* VideoSkeleton */ = {
 			isa = PBXGroup;
 			children = (
+				32D764BD1E88271C00BBD6CC /* Model */,
+				32D764BC1E8826AC00BBD6CC /* Views */,
+				32D764B31E88265D00BBD6CC /* ViewControllers */,
 				32D764821E88246D00BBD6CC /* AppDelegate.swift */,
-				32D764841E88246D00BBD6CC /* ViewController.swift */,
+				32D764C11E8831C800BBD6CC /* VideoSkeleton-BridgingHeader.h */,
 				32D764861E88246D00BBD6CC /* Main.storyboard */,
 				32D764891E88246D00BBD6CC /* Assets.xcassets */,
 				32D7648B1E88246D00BBD6CC /* LaunchScreen.storyboard */,
@@ -125,6 +150,52 @@
 			path = VideoSkeletonUITests;
 			sourceTree = "<group>";
 		};
+		32D764B31E88265D00BBD6CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32D764B41E88268400BBD6CC /* MoviesViewController.swift */,
+				32D764B61E88269100BBD6CC /* HomeViewController.swift */,
+				32D764B81E88269B00BBD6CC /* SettingsViewController.swift */,
+				32D764BA1E8826A800BBD6CC /* LanguageSelectionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		32D764BC1E8826AC00BBD6CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32D764CA1E8B660100BBD6CC /* MovieCarouselCell.xib */,
+				32D764C61E888C4A00BBD6CC /* MovieCarouselCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		32D764BD1E88271C00BBD6CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32D764C21E88335800BBD6CC /* Movie.swift */,
+				32D764C41E88337300BBD6CC /* MovieCollection.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B513B85C9B7F73D171A4320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA55444E87A0AB2941CA270 /* Pods_VideoSkeleton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE994E89AAA30C80ED3DB121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256FD0E3239BDD0582C3C008 /* Pods-VideoSkeleton.debug.xcconfig */,
+				8A62EF4F4BB244C057889BBE /* Pods-VideoSkeleton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D764A71E88246E00BBD6CC /* Build configuration list for PBXNativeTarget "VideoSkeleton" */;
 			buildPhases = (
+				1091A281AC733532035EEF33 /* [CP] Check Pods Manifest.lock */,
 				32D7647B1E88246D00BBD6CC /* Sources */,
 				32D7647C1E88246D00BBD6CC /* Frameworks */,
 				32D7647D1E88246D00BBD6CC /* Resources */,
+				4FDBFAAA4834A0B77B35B0C3 /* [CP] Embed Pods Frameworks */,
+				1521380263DAB30B8C842362 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D764CB1E8B660100BBD6CC /* MovieCarouselCell.xib in Resources */,
 				32D7648D1E88246D00BBD6CC /* LaunchScreen.storyboard in Resources */,
 				32D7648A1E88246D00BBD6CC /* Assets.xcassets in Resources */,
 				32D764881E88246D00BBD6CC /* Main.storyboard in Resources */,
@@ -254,13 +329,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1091A281AC733532035EEF33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1521380263DAB30B8C842362 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoSkeleton/Pods-VideoSkeleton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FDBFAAA4834A0B77B35B0C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoSkeleton/Pods-VideoSkeleton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32D7647B1E88246D00BBD6CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D764851E88246D00BBD6CC /* ViewController.swift in Sources */,
+				32D764C71E888C4A00BBD6CC /* MovieCarouselCell.swift in Sources */,
 				32D764831E88246D00BBD6CC /* AppDelegate.swift in Sources */,
+				32D764B51E88268400BBD6CC /* MoviesViewController.swift in Sources */,
+				32D764C31E88335800BBD6CC /* Movie.swift in Sources */,
+				32D764B71E88269100BBD6CC /* HomeViewController.swift in Sources */,
+				32D764B91E88269B00BBD6CC /* SettingsViewController.swift in Sources */,
+				32D764BB1E8826A800BBD6CC /* LanguageSelectionViewController.swift in Sources */,
+				32D764C51E88337300BBD6CC /* MovieCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +489,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "VideoSkeleton-BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,6 +532,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "VideoSkeleton-BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -410,25 +541,33 @@
 		};
 		32D764A81E88246E00BBD6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256FD0E3239BDD0582C3C008 /* Pods-VideoSkeleton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoSkeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinmab.videoskeleton.VideoSkeleton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSkeleton-BridgingHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
 		32D764A91E88246E00BBD6CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A62EF4F4BB244C057889BBE /* Pods-VideoSkeleton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoSkeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dinmab.videoskeleton.VideoSkeleton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSkeleton-BridgingHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
@@ -505,6 +644,7 @@
 				32D764A91E88246E00BBD6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D764AA1E88246E00BBD6CC /* Build configuration list for PBXNativeTarget "VideoSkeletonTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +653,7 @@
 				32D764AC1E88246E00BBD6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D764AD1E88246E00BBD6CC /* Build configuration list for PBXNativeTarget "VideoSkeletonUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +662,7 @@
 				32D764AF1E88246E00BBD6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
