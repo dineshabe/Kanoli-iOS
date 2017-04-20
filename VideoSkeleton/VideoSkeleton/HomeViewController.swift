@@ -117,8 +117,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         print("TrailerPressed")
     }
     
-    func ViewMorePressed () -> Void {
-        print("ViewMorePressed")
+    func ViewMorePressed (sender: AnyObject) -> Void {
+        print("ViewMorePressed for \(sender.tag)")
+        self.navigationController?.pushViewController(UIStoryboard.MovieListViewController(), animated: true)
     }
     
     //MARK: - UITableViewDataSource
@@ -134,7 +135,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieFeaturedTableViewCell", for: indexPath) as! MovieFeaturedTableViewCell
         
         cell.cellHeaderLabel.text = self.featuredList[indexPath.row].collectionName
-        cell.viewMorebutton.addTarget(self, action: #selector(HomeViewController.ViewMorePressed), for: UIControlEvents.touchUpInside)
+        cell.viewMorebutton.tag = indexPath.row
+        cell.viewMorebutton.addTarget(self, action: #selector(HomeViewController.ViewMorePressed(sender:)), for: UIControlEvents.touchUpInside)
         cell.collectionView.delegate = self
         cell.collectionView.dataSource = self
         
@@ -189,5 +191,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         } else {
             return CGSize(width: 100, height:150)
         }
+    }
+    
+    // MARK: - Navigation
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
 }

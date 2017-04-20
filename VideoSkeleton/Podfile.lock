@@ -1,17 +1,17 @@
 PODS:
-  - iCarousel (1.8.3)
+  - HMSegmentedControl (1.5.3)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
-  - iCarousel
+  - HMSegmentedControl
   - SDWebImage
 
 SPEC CHECKSUMS:
-  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 5669cfd10c8e3d3bc53ba597fb373481ba10d0ea
+PODFILE CHECKSUM: b385067fad45488d763314e38ca53b23152ea4aa
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

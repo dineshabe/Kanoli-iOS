@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "iCarousel.h"
+#import "HMSegmentedControl.h"
 
-FOUNDATION_EXPORT double iCarouselVersionNumber;
-FOUNDATION_EXPORT const unsigned char iCarouselVersionString[];
+FOUNDATION_EXPORT double HMSegmentedControlVersionNumber;
+FOUNDATION_EXPORT const unsigned char HMSegmentedControlVersionString[];
 

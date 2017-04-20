@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3246BAC81EA86980000A231E /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246BAC71EA86980000A231E /* MovieListViewController.swift */; };
+		3246BACB1EA87D9B000A231E /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246BACA1EA87D9B000A231E /* UIStoryboard.swift */; };
 		32D764831E88246D00BBD6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D764821E88246D00BBD6CC /* AppDelegate.swift */; };
 		32D764881E88246D00BBD6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D764861E88246D00BBD6CC /* Main.storyboard */; };
 		32D7648A1E88246D00BBD6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D764891E88246D00BBD6CC /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		256FD0E3239BDD0582C3C008 /* Pods-VideoSkeleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSkeleton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSkeleton/Pods-VideoSkeleton.debug.xcconfig"; sourceTree = "<group>"; };
+		3246BAC71EA86980000A231E /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		3246BACA1EA87D9B000A231E /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		32D7647F1E88246D00BBD6CC /* VideoSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D764821E88246D00BBD6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D764871E88246D00BBD6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3246BAC91EA87D8E000A231E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3246BACA1EA87D9B000A231E /* UIStoryboard.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		32D764761E88246D00BBD6CC = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +139,7 @@
 		32D764811E88246D00BBD6CC /* VideoSkeleton */ = {
 			isa = PBXGroup;
 			children = (
+				3246BAC91EA87D8E000A231E /* Extension */,
 				32D764BD1E88271C00BBD6CC /* Model */,
 				32D764BC1E8826AC00BBD6CC /* Views */,
 				32D764B31E88265D00BBD6CC /* ViewControllers */,
@@ -165,6 +178,7 @@
 				32D764B61E88269100BBD6CC /* HomeViewController.swift */,
 				32D764B81E88269B00BBD6CC /* SettingsViewController.swift */,
 				32D764BA1E8826A800BBD6CC /* LanguageSelectionViewController.swift */,
+				3246BAC71EA86980000A231E /* MovieListViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -356,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		1521380263DAB30B8C842362 /* [CP] Copy Pods Resources */ = {
@@ -396,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3246BACB1EA87D9B000A231E /* UIStoryboard.swift in Sources */,
 				32D764D81E949BB400BBD6CC /* FeaturedMovieCollectionCell.swift in Sources */,
 				32D764C71E888C4A00BBD6CC /* MovieCarouselCell.swift in Sources */,
 				32D764831E88246D00BBD6CC /* AppDelegate.swift in Sources */,
@@ -403,6 +418,7 @@
 				32D764C31E88335800BBD6CC /* Movie.swift in Sources */,
 				32D764B71E88269100BBD6CC /* HomeViewController.swift in Sources */,
 				32D764B91E88269B00BBD6CC /* SettingsViewController.swift in Sources */,
+				3246BAC81EA86980000A231E /* MovieListViewController.swift in Sources */,
 				32D764D41E8F7CAC00BBD6CC /* MovieFeaturedTableViewCell.swift in Sources */,
 				32D764BB1E8826A800BBD6CC /* LanguageSelectionViewController.swift in Sources */,
 				32D764C51E88337300BBD6CC /* MovieCollection.swift in Sources */,
