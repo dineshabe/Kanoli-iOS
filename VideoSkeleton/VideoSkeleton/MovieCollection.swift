@@ -8,6 +8,11 @@
 
 import Foundation
 class MovieCollection {
-    let movieList = [Movie]()
+    var movieList = [Movie]()
     var collectionName = ""
+    
+    init(name: String, list: [Movie]) {
+        self.collectionName = name
+        self.movieList = list
+    }
 }

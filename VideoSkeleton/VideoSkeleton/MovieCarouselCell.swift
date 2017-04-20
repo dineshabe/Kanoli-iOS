@@ -18,6 +18,10 @@ class MovieCarouselCell: UICollectionViewCell {
     @IBOutlet weak var languageLabel : UILabel!
     @IBOutlet weak var postedDateLabel : UILabel!
     
+    @IBOutlet weak var watchButton : UIButton!
+    @IBOutlet weak var wikiButton : UIButton!
+    @IBOutlet weak var trailerButton : UIButton!
+
 
     func populateCell(movie: Movie) {
         self.moviePoster.sd_setImage(with: URL(string: movie.iconUrl)!, placeholderImage: nil)
